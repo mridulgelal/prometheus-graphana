@@ -1,0 +1,16 @@
+{
+  "name": "graphana-prometheus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --trace-warnings --env-file=.env index.js"
+  },
+  "author": "mridul",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "prom-client": "^15.1.3",
+    "response-time": "^2.3.3"
+  }
+}
